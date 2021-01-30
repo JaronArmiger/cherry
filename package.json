@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Jaron Armiger",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
