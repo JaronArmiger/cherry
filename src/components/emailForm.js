@@ -16,8 +16,8 @@ const EmailForm = () => {
         flexBasis: '50%',
         flexWrap: 'wrap',
       }}
-      // name='contact'
-      // data-netlify='true'
+      name='contact'
+      data-netlify='true'
     >
       <input 
         type="email" 
