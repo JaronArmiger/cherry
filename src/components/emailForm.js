@@ -10,12 +10,13 @@ const EmailForm = () => {
 
   return (
     <form 
-      onSubmit={handleSubmit}
+      // onSubmit={handleSubmit}
       style={{
         display: 'flex',
         flexBasis: '50%',
         flexWrap: 'wrap',
       }}
+      method='post'
       name='contact'
       data-netlify='true'
       data-netlify-honeypot="bot-field"
