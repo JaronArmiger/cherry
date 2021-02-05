@@ -24,6 +24,7 @@ const EmailForm = () => {
       <input type="hidden" name="form-name" value="contact" />
       <input 
         type="email" 
+        name='email'
         style={{
           background: 'transparent',
           outline: 'none',
