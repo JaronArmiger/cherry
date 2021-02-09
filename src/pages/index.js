@@ -58,14 +58,14 @@ const IndexPage = () => (
         bottom: '2.5em',
       }}
     >
-      {/*<p
+      <p
               style={{
                 color: 'white',
                 textAlign: 'center',
               }}
             >
-              Or checkout out our other store
-            </p>*/}
+              Or checkout our other store
+            </p>
       <div
         style={{
           display: 'flex',
@@ -74,7 +74,7 @@ const IndexPage = () => (
           margin: 'auto',
         }}
       >
-        <a href="https://www.facebook.com/">
+        <a href="https://www.facebook.com/pilsenvintagechicago/">
           <FontAwesomeIcon 
             icon={faFacebook}
             size='2x'
@@ -84,7 +84,7 @@ const IndexPage = () => (
             }}
           />
         </a>
-        <a href="">
+        <a href="https://www.pilsenvintagechicago.com">
           <FontAwesomeIcon 
             icon={faGlobe}
             size='2x'
@@ -94,7 +94,7 @@ const IndexPage = () => (
             }}
           />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/pilsenvintagechicago/">
           <FontAwesomeIcon 
             icon={faInstagram}
             size='2x'

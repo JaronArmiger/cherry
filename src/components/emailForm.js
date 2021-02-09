@@ -49,7 +49,11 @@ const EmailForm = () => {
           border: 'none',
           margin: '10px 5px',
           borderRadius: '2px',
-          backgroundColor: 'rgba(255, 255, 255, 0.2)'
+          backgroundColor: 'rgba(255, 255, 255, 0.2)',
+          cursor: 'pointer',
+          ':focus': {
+            outline: '0',
+          }
         }}
       >
         Sign up
